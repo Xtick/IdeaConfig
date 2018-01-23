@@ -1,7 +1,10 @@
 <templateSet group="MyGroup">
-  <template name="aa" value="/**&#10; * @author niujiaxing&#10; * @date $date$ &#10; * @description $data$&#10; */" description="add comment" toReformat="false" toShortenFQNames="true">
+  <template name="aa" value="/**&#10; * $shortDescription$&#10; * &lt;p&gt;&#10; * $longerDescription$&#10; * &lt;p&gt;&#10; *&#10; * @param $params$&#10; * @return $return$&#10; * @author niujiaxing&#10; * @date $date$ &#10; */" description="add comment" toReformat="false" toShortenFQNames="true">
+    <variable name="shortDescription" expression="methodName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="longerDescription" expression="methodName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="params" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
+    <variable name="return" expression="methodReturnType()" defaultValue="void" alwaysStopAt="true" />
     <variable name="date" expression="date(yyyy/MM/dd)" defaultValue="yyyy/MM/dd" alwaysStopAt="true" />
-    <variable name="data" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
     </context>
