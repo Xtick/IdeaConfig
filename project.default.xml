@@ -1,106 +1,21 @@
 <application>
   <component name="ProjectManager">
     <defaultProject>
-      <component name="CompilerConfiguration">
-        <option name="DEFAULT_COMPILER" value="Eclipse" />
-      </component>
-      <component name="EclipseCompilerSettings">
-        <option name="GENERATE_NO_WARNINGS" value="true" />
-      </component>
-      <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-        <file url="PROJECT" charset="UTF-8" />
-      </component>
       <component name="InspectionProjectProfileManager">
         <option name="PROJECT_PROFILE" />
         <version value="1.0" />
       </component>
-      <component name="ProjectInspectionProfilesVisibleTreeState">
-        <entry key="Project Default">
-          <profile-state>
-            <expanded-state>
-              <State>
-                <id />
-              </State>
-              <State>
-                <id>Internationalization issues</id>
-              </State>
-              <State>
-                <id>Internationalization issuesJava</id>
-              </State>
-              <State>
-                <id>Java</id>
-              </State>
-              <State>
-                <id>WebSocket issues</id>
-              </State>
-            </expanded-state>
-          </profile-state>
-        </entry>
+      <component name="MavenImportPreferences">
+        <option name="generalSettings">
+          <MavenGeneralSettings>
+            <option name="localRepository" value="F:\Maven_repo" />
+            <option name="mavenHome" value="D:/apache-maven-3.3.9" />
+            <option name="userSettingsFile" value="F:\Maven_repo\settings.xml" />
+          </MavenGeneralSettings>
+        </option>
       </component>
-      <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.7" project-jdk-type="JavaSDK" />
       <component name="PropertiesComponent">
-        <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-        <property name="project.structure.last.edited" value="Problems" />
-        <property name="project.structure.proportion" value="0.0" />
-        <property name="project.structure.side.proportion" value="0.2" />
-        <property name="last_opened_file_path" value="D:/0workspace" />
-        <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-      </component>
-      <component name="SvnConfiguration">
-        <configuration>C:\Users\niujiaxing\AppData\Roaming\Subversion</configuration>
-      </component>
-      <component name="VcsContentAnnotationSettings">
-        <option name="myLimit" value="2678400000" />
-      </component>
-      <component name="masterDetails">
-        <states>
-          <state key="GlobalLibrariesConfigurable.UI">
-            <settings>
-              <splitter-proportions>
-                <option name="proportions">
-                  <list>
-                    <option value="0.2" />
-                  </list>
-                </option>
-              </splitter-proportions>
-            </settings>
-          </state>
-          <state key="JdkListConfigurable.UI">
-            <settings>
-              <last-edited>1.7</last-edited>
-              <splitter-proportions>
-                <option name="proportions">
-                  <list>
-                    <option value="0.2" />
-                  </list>
-                </option>
-              </splitter-proportions>
-            </settings>
-          </state>
-          <state key="ProjectJDKs.UI">
-            <settings>
-              <last-edited>1.7</last-edited>
-              <splitter-proportions>
-                <option name="proportions">
-                  <list>
-                    <option value="0.2" />
-                  </list>
-                </option>
-              </splitter-proportions>
-            </settings>
-          </state>
-          <state key="ProjectLibrariesConfigurable.UI">
-            <settings>
-              <splitter-proportions>
-                <option name="proportions">
-                  <list>
-                    <option value="0.2" />
-                  </list>
-                </option>
-              </splitter-proportions>
-            </settings>
-          </state>
-        </states>
+        <property name="settings.editor.selected.configurable" value="MavenSettings" />
       </component>
     </defaultProject>
   </component>
