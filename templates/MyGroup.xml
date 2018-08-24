@@ -21,7 +21,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="syso" value="System.out.print($data$);" description="打印输出" toReformat="false" toShortenFQNames="true">
+  <template name="syso" value="System.out.println($data$);" description="打印输出" toReformat="false" toShortenFQNames="true">
     <variable name="data" expression="arrayVariable()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
