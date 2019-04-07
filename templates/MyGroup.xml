@@ -1,22 +1,8 @@
 <templateSet group="MyGroup">
-  <template name="aa" value="/**&#10; * &lt;p&gt;&#10; * $longerDescription$&#10; * &lt;p&gt;&#10; *&#10; * @param $params$&#10; * @return $return$&#10; * @author niujiaxing&#10; * @date $date$ $time$&#10; */" description="add comment" toReformat="false" toShortenFQNames="true">
-    <variable name="longerDescription" expression="methodName()" defaultValue="" alwaysStopAt="true" />
-    <variable name="params" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
-    <variable name="return" expression="methodReturnType()" defaultValue="void" alwaysStopAt="true" />
-    <variable name="date" expression="date(yyyy/MM/dd)" defaultValue="yyyy/MM/dd" alwaysStopAt="true" />
+  <template name="qq" value="/**&#10; * $des$&#10; * &#10; * @author niujiaxing &#10; * @since $date$ $time$&#10; */" description="simple comment" toReformat="false" toShortenFQNames="true">
+    <variable name="des" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
     <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
-  <template name="bb" value="/**&#10; * @date $date$ &#10; * @description $data$&#10; */" description="js comment" toReformat="false" toShortenFQNames="true">
-    <variable name="date" expression="date(yyyy/MM/dd)" defaultValue="yyyy/MM/dd" alwaysStopAt="true" />
-    <variable name="data" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
-  <template name="qq" value="/**&#10; * @author niujiaxing &#10; * @description &#10; */" description="simple comment" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -33,6 +19,12 @@
     <variable name="data" expression="methodName()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="**" value="$GROOVY$" description="**" toReformat="false" toShortenFQNames="true">
+    <variable name="GROOVY" expression="groovyScript(&quot;D:\\ideaIU-2018.2.7\\baed.groovy&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
     </context>
   </template>
 </templateSet>
